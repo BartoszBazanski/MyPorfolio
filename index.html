@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8" />
     <title>Bartosz Bazański Portfolio</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <link href="stylesheets/style.css" rel="stylesheet" type="text/css" media="screen" />
-  </head>
-  <body>
-    <div class="navbar">
-      <div role="presentation" class="active tab"><a href="index.html">Strona główna</a></div>
-      <div role="presentation" class="tab"><a href="about.html">O mnie</a></div>
-      <div role="presentation" class="tab"><a href="portfolio.html">Moje prace</a></div>
-      <div role="presentation" class="tab"><a href="contact.html">Kontakt</a></div>
+    <script type="text/javascript" src="javascript/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="text-content">
+            <h2>Witaj!</h2>
+            <p>Znalazłeś się na stronie przybliżającej trochę moją skromną osobę. W poszczegółnych zakładkach znajdziesz najważniejsze informacje, czyli:</p>
+        </div>
+        <div class="main-box">
+            <div id="photo-box">
+                <img src="images/DSC_5930.jpg" />
+            </div>
+            <div id="round-menu">
+                <div id="top" class="menu-button"><div>ONE</div></div>
+                <div id="right" class="menu-button"><div>TWO</div></div>
+                <div id="bottom" class="menu-button"><div>SRI</div></div>
+                <div id="left" class="menu-button"><div>FOR</div></div>
+            </div>
+        </div>
     </div>
-    <div id="content">
-      <div class="main-photo">
-        <img class="portrait" src="images/DSC_5930.jpg">
-      </div>
-      <h2>Witaj!</h2>
-      <p>Znalazłeś się na stronie przybliżającej trochę moją skromną osobę. W poszczegółnych zakładkach znajdziesz najważniejsze informacje, czyli:</p>
-      <ul>
-        <li>Krótki opis mojej osoby</li>
-        <li>Moje dotychczasowe projekty</li>
-        <li>Podstawowe dane kontaktowe</li>
-      </ul>
-    </div>
-  </body>
+</body>
 </html>
