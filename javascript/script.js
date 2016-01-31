@@ -4,18 +4,35 @@ $(function(){
     var bottom = $("#bottom");
     var left = $("#left");
     var menu = $("#round-menu");
+    var description = $('.description');
     top.click(function(){
         AnimateRotate(menu, 405);
+        AnimateRotate($(".description"), 0);
+        AnimateRotate($(".description"), -45);
     })
     right.click(function(){
         AnimateRotate(menu, 675);
+        AnimateRotate($(".description"), 0);
+        AnimateRotate($(".description"), 45);
     })
     bottom.click(function(){
         AnimateRotate(menu, 585);
+        AnimateRotate($(".description"), 0);
+        AnimateRotate($(".description"), -225);
     })
     left.click(function(){
         AnimateRotate(menu, 495);
+        AnimateRotate($(".description"), 0);
+        AnimateRotate($(".description"), -135);
     })
+    //Fading in texts
+    var hello = $('#text-content h2');
+    hello.hide();
+    var greeting = $('#text-content p');
+    greeting.hide();
+    hello.fadeIn(1500);
+    greeting.delay(2000).fadeIn(1500);
+
 });
 function AnimateRotate(obj, angle){
     var start = getRotationDeg(obj);
