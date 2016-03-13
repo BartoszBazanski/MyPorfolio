@@ -86,7 +86,7 @@ img {
     border-radius: 50%;
     width: 100%;
     height: 350px;
-    z-index: 1;
+    z-index: 2;
 }
 #round-menu div span{
   position: absolute;
@@ -154,30 +154,42 @@ img {
     transform: rotate(-135deg);
 }
 .description {
-  width: 150px;
-
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  font-size: 12px;
+  font-weight: bold;
   text-align: center;
   position: absolute;
-  padding: 10px;
+  padding: 44px 0;
   color: red;
   background-color: yellow;
-  z-index: 5;
-  border-radius: 5px;
-  transform: rotate(-45deg);
+  z-index: 1;
+  width: 230px;
+  height: 230px;
+  bottom: 60px;
+  right: 60px;
 }
-.me {
-  top: -20px;
-  left: -75px;
+/*.me-visible {
+  width: 100px;
+  height: 100px;
+  top: -50px;
+  left: -50px;
 }
-.cv {
-  top: -20px;
-  right: -75px;
+.cv-visible {
+  width: 100px;
+  height: 100px;
+  top: -50px;
+  right: -50px;
 }
-.projects{
-  bottom: -20px;
-  right: -75px;
+.projects-visible{
+  width: 100px;
+  height: 100px;
+  bottom: -50px;
+  right: -50px;
 }
-.contact{
-  bottom: -20px;
-  left: -75px;
-}
+.contact-visible{
+  width: 100px;
+  height: 100px;
+  bottom: -50px;
+  left: -50px;
+}*/

@@ -1,0 +1,44 @@
+#jumbotron {
+    height: 400px;
+    position: relative;
+    background-color: #C4C4C4;
+    z-index: 1;
+    h1{
+        position: relative;
+        z-index: 4;
+        width: 50%;
+        text-align: center;
+        color: black;
+        padding: 50px;
+        font-size: 20px;
+        span {
+            font-size: 14px;
+            color: gray;
+            text-transform: uppercase;
+        }
+    }
+    &:after{
+        content: "";
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-position: top right;
+        background-image: url("../images/mugshot.jpg");
+        background-repeat: no-repeat;
+        background-size: 60%;
+        z-index: 2;
+    }
+    &:before{
+        content: "";
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: gray;
+        opacity: .7;
+        z-index: 3;
+    }
+}

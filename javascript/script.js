@@ -4,26 +4,35 @@ $(function(){
     var bottom = $("#bottom");
     var left = $("#left");
     var menu = $("#round-menu");
+    var menuButtons = $('.menu-button');
     var description = $('.description');
+    // description.addClass('hidden');
+
+    // menuButtons.hover(function(event){
+    //     $(this).next('.description').addClass('visible').removeClass('hidden')
+    //     },function(){
+    //         $(this).next('.description').addClass('hidden').removeClass('visible');
+    //     });
+
     top.click(function(){
         AnimateRotate(menu, 405);
-        AnimateRotate($(".description"), 0);
-        AnimateRotate($(".description"), -45);
+        AnimateRotate(description, 0);
+        AnimateRotate(description, -45);
     })
     right.click(function(){
         AnimateRotate(menu, 675);
-        AnimateRotate($(".description"), 0);
-        AnimateRotate($(".description"), 45);
+        AnimateRotate(description, 0);
+        AnimateRotate(description, 45);
     })
     bottom.click(function(){
         AnimateRotate(menu, 585);
-        AnimateRotate($(".description"), 0);
-        AnimateRotate($(".description"), -225);
+        AnimateRotate(description, 0);
+        AnimateRotate(description, -225);
     })
     left.click(function(){
         AnimateRotate(menu, 495);
-        AnimateRotate($(".description"), 0);
-        AnimateRotate($(".description"), -135);
+        AnimateRotate(description, 0);
+        AnimateRotate(description, -135);
     })
     //Fading in texts
     var hello = $('#text-content h2');
