@@ -1,2 +1,10 @@
 @import  "partials/header";
 @import  "partials/jumbotron";
+@import  "partials/about";
+@import  "partials/projects";
+@import  "partials/skills";
+@import  "partials/contact";
+
+section {
+    padding: 50px;
+}

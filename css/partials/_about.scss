@@ -1,0 +1,13 @@
+#about{
+    article {
+        margin: 100px 0;
+    }
+    .mugshot {
+        background-image: url(../images/mugshot.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+        padding-bottom: 100%;
+    }
+}

@@ -17,19 +17,6 @@
             text-transform: uppercase;
         }
     }
-    &:after{
-        content: "";
-        position: absolute;
-        top:0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-position: top right;
-        background-image: url("../images/mugshot.jpg");
-        background-repeat: no-repeat;
-        background-size: 60%;
-        z-index: 2;
-    }
     &:before{
         content: "";
         position: absolute;
