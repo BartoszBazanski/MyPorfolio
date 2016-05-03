@@ -1,0 +1,19 @@
+#projects{
+    background-color: lightgray;
+    .project{
+        display: table;
+        padding: 0 50px 25px;
+        .project-thumbnail{
+            .thumbnail{
+                margin: 25px auto;
+                width: 75%;
+            }
+        }
+        .project-description{
+            a{
+                margin-right: 10px;
+                font-size: 40px;
+            }
+        }
+    }
+}

@@ -1,9 +1,14 @@
 header {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: darkblue; }
   header .navigation {
-    height: 75px;
-    list-style-type: none;
-    padding: 0; }
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
     header .navigation .nav-items {
       color: lightblue;
       font-weight: bold;
@@ -16,45 +21,29 @@ header {
       header .navigation .nav-items:hover {
         text-decoration: none; }
 
-#jumbotron {
-  height: 400px;
-  position: relative;
-  background-color: #C4C4C4;
-  z-index: 1; }
-  #jumbotron h1 {
-    position: relative;
-    z-index: 4;
-    width: 50%;
-    text-align: center;
-    color: black;
-    padding: 50px;
-    font-size: 20px; }
-    #jumbotron h1 span {
-      font-size: 14px;
-      color: gray;
-      text-transform: uppercase; }
-  #jumbotron:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: gray;
-    opacity: .7;
-    z-index: 3; }
-
 #about article {
   margin: 100px 0; }
 #about .mugshot {
-  background-image: url(../images/mugshot.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  margin: 0 auto;
+  width: 75%;
+  background: url(../images/mugshot.jpg) center no-repeat;
   background-size: cover;
   border-radius: 50%;
-  padding-bottom: 100%; }
+  padding-bottom: 75%; }
+
+#projects {
+  background-color: lightgray; }
+  #projects .project {
+    display: table;
+    padding: 0 50px 25px; }
+    #projects .project .project-thumbnail .thumbnail {
+      margin: 25px auto;
+      width: 75%; }
+    #projects .project .project-description a {
+      margin-right: 10px;
+      font-size: 40px; }
 
 section {
-  padding: 50px; }
+  padding: 100px 0 50px; }
 
 /*# sourceMappingURL=main.css.map */

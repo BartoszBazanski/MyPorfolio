@@ -3,11 +3,11 @@
         margin: 100px 0;
     }
     .mugshot {
-        background-image: url(../images/mugshot.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
+        margin: 0 auto;
+        width: 75%;
+        background: url(../images/mugshot.jpg) center no-repeat;
         background-size: cover;
         border-radius: 50%;
-        padding-bottom: 100%;
+        padding-bottom: 75%;
     }
 }
