@@ -3,7 +3,11 @@
 @import  "partials/projects";
 @import  "partials/skills";
 @import  "partials/contact";
+@import  "partials/footer";
 
+body{
+    font-family: Lato;
+}
 section {
     padding: 100px 0 50px;
 }

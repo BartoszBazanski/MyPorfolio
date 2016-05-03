@@ -4,7 +4,10 @@
         display: table;
         padding: 0 50px 25px;
         .project-thumbnail{
+            text-align: center;
             .thumbnail{
+                border-radius: 2px;
+                border: 4px solid white;
                 margin: 25px auto;
                 width: 75%;
             }

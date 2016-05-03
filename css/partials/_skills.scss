@@ -1,0 +1,19 @@
+#skills {
+    .skill{
+        padding: 30px;
+        .logos{
+            float: left;
+            text-align: center;
+            width: 200px;
+            img{
+                height: 150px;
+            }
+        }
+        .rating{
+            float: right;
+            padding: 50px 5px;
+            font-size: 45px;
+            color: gold;
+        }
+    }
+}
